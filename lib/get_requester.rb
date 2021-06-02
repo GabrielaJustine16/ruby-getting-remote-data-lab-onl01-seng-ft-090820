@@ -21,4 +21,5 @@ class GetRequester
     JSON.parse(get_response_body)
     
   end
+  get_requester = GetRequester.new('https://learn-co-curriculum.github.io/json-site-example/endpoints/people.json')
 end 
